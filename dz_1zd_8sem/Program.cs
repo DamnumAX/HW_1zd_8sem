@@ -11,9 +11,9 @@
 */
 
 Console.WriteLine("введите количество строк");
-int lines = Convert.ToInt32(Console.ReadLine());
+int lines = int.Parse(Console.ReadLine());
 Console.WriteLine("введите количество столбцов");
-int columns = Convert.ToInt32(Console.ReadLine());
+int columns = int.Parse(Console.ReadLine());
 int[,] numbers = new int[lines, columns];
 FillArrayRandomNumbers(numbers);
 Console.WriteLine();
